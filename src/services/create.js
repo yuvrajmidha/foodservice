@@ -13,7 +13,7 @@ export default function createNew(image) {
     redirect: 'follow'
     };
 
-    return fetch("http://localhost:4000/foodservice/cms/create_lead", requestOptions)
+    return fetch("https://hellopos.net.au/foodservice/cms/create_lead", requestOptions)
     .then(response => response.json())
   
 }

@@ -10,7 +10,7 @@ export default function deleteOne(id) {
     redirect: 'follow'
     };
 
-    return fetch("http://localhost:4000/foodservice/cms/delete_lead?_id=" + id, requestOptions)
+    return fetch("https://hellopos.net.au/foodservice/cms/delete_lead?_id=" + id, requestOptions)
     .then(response => response.json())
     
 }
