@@ -16,6 +16,7 @@ export default function uploadImage(image) {
     redirect: "follow",
   };
 
+  
   return fetch("https://hellopos.net.au/foodservice/util/create_lead/s3/upload", requestOptions)
     .then((response) => response.text())
 
