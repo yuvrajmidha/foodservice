@@ -130,7 +130,7 @@ export const App = () => {
           {image === "" ? (
             <Box>
               <Box h="100vh" w="100vw">
-                <Camera ref={camera} />
+                <Camera facingMode="environment" ref={camera} />
               </Box>
               <Box
                 pos={"fixed"}
